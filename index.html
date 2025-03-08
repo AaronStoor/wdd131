@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta description="This is a sample HTML document for WDD 131 - Blazzard">
+    <meta name="author" content="Blazzard">
+    <link rel="stylesheet" href="styles/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>WDD 131-Dynamic Web Fundamentals - Aaron Stoor</title>
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131 - Blazzard</h1>
+    <header>
+        <h1>WDD 131 - Blazzard</h1>
+        <nav>
+            <ul>
+                <li><a href="https://linkedin.com/in/aaron-stoor-13a5b3263">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng">Scripture</a></li>
+                <li><a href="">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Card 1 Heading</h2>
+            <img src="images/card1.jpg" alt="Card 1 Image">
+            <p>Content for card 1 goes here. This is a brief description or information about the first card.</p>
+        </section>
+        <section class="card">
+            <h2>Card 2 Heading</h2>
+            <img src="images/card2.jpg" alt="Card 2 Image">
+            <p>Content for card 2 goes here. This is a brief description or information about the second card.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Aaron Stoor, USA.</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>

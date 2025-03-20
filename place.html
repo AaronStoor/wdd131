@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beautiful place with stunning views and weather updates.">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="styles/place.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <title>Beautiful Place</title>
+</head>
+
+<body>
+    <header>
+        <h1>Beautiful Place</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/hero-image.webp" alt="Beautiful Place">
+        </section>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 587,041 sq km</li>
+                <li><strong>Population:</strong> 27,691,018</li>
+                <li><strong>Capital:</strong> Antananarivo</li>
+                <li><strong>Languages:</strong> Malagasy, French</li>
+                <li><strong>Currency:</strong> Malagasy Ariary</li>
+                <li><strong>Time Zone:</strong> UTC+3</li>
+                <li><strong>Calling Code:</strong> +261</li>
+                <li><strong>Internet TLD:</strong> .mg</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather <span class="weather-icon">⛅</span></h2>
+            <ul>
+                <li><strong>Temperature:</strong> 10°C</li>
+                <li><strong>Conditions:</strong> Partly Cloudy</li>
+                <li><strong>Wind:</strong> 5 km/h</li>
+                <li><strong>Wind Chill:</strong> <span id="windChill">N/A</span></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Your Name, Your Country.</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/place.js" defer></script>
+</body>
+
+</html>

@@ -71,7 +71,7 @@ const temples = [
         dedicated: "1893, April, 6",
         area: 253015,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-utah/400x250/salt-lake-temple-lds-273999-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/salt-lake-temple/photographs/#Gallery-3"
     },
     {
         templeName: "Tokyo Japan",
@@ -79,7 +79,7 @@ const temples = [
         dedicated: "1980, October, 27",
         area: 52500,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tokyo-japan/400x250/tokyo-japan-temple-lds-273999-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/tokyo-japan-temple/photographs/#Gallery-12"
     },
     {
         templeName: "Johannesburg South Africa",
@@ -87,7 +87,7 @@ const temples = [
         dedicated: "1985, August, 24",
         area: 21000,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/400x250/johannesburg-south-africa-temple-lds-273999-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/johannesburg-south-africa-temple/photographs/#Gallery-2"
     }
 ];
 

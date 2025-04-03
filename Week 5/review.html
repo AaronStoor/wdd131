@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Confirmation</title>
+    <link rel="stylesheet" href="styles/review.css">
+</head>
+
+<body>
+    <header>
+        <h1>Thank You for Your Review!</h1>
+    </header>
+
+    <main>
+        <p id="review-count"></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Your Name, Your Country.</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        // Footer: Set the current year and last modified date
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentyear').textContent = currentYear;
+
+        const lastModified = document.lastModified;
+        document.getElementById('lastModified').textContent = `Last Modified: ${lastModified}`;
+    </script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
